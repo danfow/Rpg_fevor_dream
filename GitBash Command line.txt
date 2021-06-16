@@ -1,0 +1,31 @@
+Stuff
+
+Please never directly commit to Master.
+
+Either make a branch through the github browser and work off of that and then request a merge(have your stuff peer reviewed), or if using command line,
+
+Also make sure to "git pull" when you start. This will make sure your clone matches the master.
+
+
+How set up a branch Locally and Push to repository.
+
+git branch <branchname>
+git checkout <branchname>
+git push --set-upstream origin <branchname>
+
+How to select branch from repository.
+
+git pull
+git checkout <branchname>
+When done with work.
+git add <files>
+git commit  -m "words"
+git push
+--> if you want to merge. use the website. get peer reviews then merge.
+
+How to delete branches locally.
+git branch -d <branchname>
+git branch -D <branchname>
+
+How to delete branches remotely in repository
+git push origin --delete <branchname>
